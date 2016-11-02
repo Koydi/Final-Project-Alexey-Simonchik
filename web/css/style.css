@@ -1,0 +1,186 @@
+
+/* INDEX.HTML */
+
+
+.image-style {
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+
+.information-border-style {
+    border-bottom: 1px solid #d0d0c0;
+    margin-top: 20px;
+}
+
+#first-information-block {
+    margin-top: 70px;
+}
+
+body {
+    background: url('../data/common/images/background.jpg') repeat-y;
+    background-size: 100%;
+}
+
+#film-description {
+    margin-top: 70px;
+}
+
+p {
+    color: #fbfbfb;
+}
+
+h2, .info-type {
+    color: #ffa500;
+}
+
+.footer-style {
+    position: absolute;
+    bottom: 0;
+    font-family: "museo-sans-rounded","Helvetica","Arial",sans-serif;
+    font-weight: 500;
+    font-size: 1.9rem;
+    text-align: center;
+}
+
+.trailer-class {
+    max-height: 480px;
+    margin-top: 50px;
+}
+.description-style {
+    padding-bottom: 20px;
+}
+
+.footer-text {
+    color: black;
+}
+
+.mark-bar {
+    padding-left: 0px;
+    min-height: 10px;
+    background-color: white;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.mark-status {
+    margin-left: 0px;
+    min-height: 10px;
+    background-color: #ffa500;
+    border-radius: 5px;
+}
+
+.mark-wrapper {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-bottom: 1px solid #d0d0c0;
+    padding-bottom: 20px;
+}
+
+#mark-style {
+    font-family: "museo-sans-rounded","Helvetica","Arial",sans-serif;
+    font-weight: bold;
+    font-size: 2.4rem;
+    color: #ffa500;
+}
+
+.modal-window-style {
+    background-color: white;
+}
+
+.modal-header-style {
+    border-bottom: 1px solid black;
+    background-color: #ffa500;
+}
+
+.modal-footer-style {
+    border-top: 1px solid black;
+    background-color: #ffa500;
+    border-radius: 0px 0px 5px 5px;
+}
+
+.modal-button-style {
+    background: black;
+    color: white;
+    border-color: black;
+}
+
+.modal-button-style:hover {
+    color: white;
+    background: black;
+    border-color: #ffa500;    
+}
+
+
+
+/* REGISTRATION.HTML */
+
+
+
+.registration-style {
+    color: white;
+}
+
+.registration-button {
+    background: white;
+    color: black;
+}
+
+
+
+/* FILM_LIST.HTML */
+
+.film-list-style {
+    color: white;
+}
+
+.film-style {
+    border-radius: 0px 0px 150px 150px;
+    padding: 0;
+    text-align: center;
+    transition: 1s;
+    width : 100%;
+    position: absolute;
+    bottom: 0px;
+    background-color: rgba(0, 0, 0, .6);
+    cursor: pointer;
+    overflow: hidden;
+    
+    min-height: 40%;
+}
+
+.film-style:hover {
+    background-color: rgba(0, 0, 0, .9);
+}
+
+.film-style h2 {
+    color: white;
+}
+
+.row-style-film-list {
+    margin-top: 20px;
+}
+
+.wrapper-film-list {
+    border-radius: 140px 140px 150px 150px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+.film-picture-list {
+    border-radius: 140px 140px 150px 150px;
+    width : 100%;
+}
+
+.header-film-list {
+    padding-top: 50px;
+    padding-left: 10px;
+    padding-bottom: 50px;
+    text-align:center;
+    color: #ffa500;
+}
+
+.divider-film-list {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-bottom: 2px dashed white;
+}
